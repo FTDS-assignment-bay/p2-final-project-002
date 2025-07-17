@@ -39,7 +39,7 @@ def app():
     **Insight: Class Distribution**
     - The bar chart above illustrates the class distribution in the training dataset.
     - Class 0 (Bus) has very few samples compared to the other four classes, indicating a data imbalance.
-    - Class 2 (Motorcycle) has the highest number of samples, followed by Class 1 (Car) and Class 3 (License Plate), with a difference of about 300 samples between Class 2 and 3.
+    - Class 2 (LicensePlate) has the highest number of samples, followed by Class 1 (Car) and Class 3 (Motorcycle), with a difference of about 300 samples between Class 2 and 3.
     - Class 4 (Truck) also has relatively fewer samples, though still significantly more than Class 0 (Bus).
     - Overall, this suggests that the data collection environment is dominated by cars and motorcycles.
     - The number of License Plate labels is relatively low compared to the total number of vehicle objects, meaning not all vehicles had readable license plates.
